@@ -211,16 +211,10 @@
   padding: 30px;
 }
 
-.hero__heading {
-  font-size: 100px;
-  margin-bottom: 24px;
-  color: #fff;
-  
 
-}
 
-.hero__heading span {
-  font-family: 'Licorice', cursive;
+.hero__heading  {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #1672db; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -237,9 +231,10 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -mo-text-fill-color: transparent;
+  font-size: 150px;
 }
 
-.hero__description {
+.hero__heading span {
   font-size: 60px;
   font-family: 'Shizuru', cursive;
   background: #da22ff; /* fallback for old browsers */
@@ -298,6 +293,12 @@
   width: 100%;
 }
 
+.main__content p {
+  color:rgb(240, 235, 235);
+  font-family: 'Kumbh Sans', sans-serif;
+  
+}
+
 
 
 
@@ -315,29 +316,21 @@
   margin-bottom: 32px;
 }*/
 
-.main__content h2 {
-  font-size: 4rem;
-  background: #ff8177; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #9114ff,
-    #da22ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #8f0eff,
-    #da22ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.main__content h1 {
+  background-color: #142cb6;
+  background-image: linear-gradient(to top, #3f0fc2 0%, #1672db 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .main__content p {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   
 }
 
@@ -520,12 +513,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
+  color:black;
   transition: 0.3s ease-in;
+  
 }
 
 #proj1 {
   background-image: url(./images/Acoustic-vs-Classical-Guitar.jpeg);
+  
 }
 
 #proj2 {
@@ -534,8 +529,20 @@
   background-position: center;
 }
 
+#proj3 {
+  background-image: url(./images/372b0e12748107.562e65ae4f019.jpg);
+  background-size: cover;
+}
+
+#proj4 {
+  background-image: url(./images/techbloggers.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
   .projects__card h2{
     text-align: center;
+    
   }
 
 .projects__card p {
@@ -622,12 +629,21 @@
 }
 
 .footer__link--items h2 {
-  margin-bottom: 16px;
-  color: #fff;
+  background-color: #142cb6;
+  background-image: linear-gradient(to top, #3f0fc2 0%, #1672db 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
 }
 
 .footer__link--items a {
   color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
   text-decoration: none;
   margin-bottom: 0.5rem;
   transition: 0.3 ease-out;
