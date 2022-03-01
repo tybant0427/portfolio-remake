@@ -45,7 +45,6 @@
   font-family: 'Licorice', cursive;
 }
 
-
 .navbar__menu {
   display: flex;
   align-items: center;
@@ -535,14 +534,13 @@
 }
 
 #proj4 {
-  background-image: url(./images/techbloggers.jpeg);
+  background-image: url(./images/a2634e96-8671-432c-b3ce-3f7620ed7ed7-Calendar.jpeg);
   background-size: cover;
   background-position: center;
 }
 
   .projects__card h2{
     text-align: center;
-    
   }
 
 .projects__card p {
@@ -556,6 +554,28 @@
   justify-content: center;
   margin-top: 16px;
   }
+
+  .projects__btn button:hover {
+    cursor: pointer;
+  } 
+
+  .projects__btn:hover {
+    transform: scale(1.075);
+    transition: 0.1s ease-in;
+    cursor: pointer;
+  }
+
+  .github__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    }
+
+    .github__btn:hover {
+      transform: scale(1.075);
+      transition: 0.1s ease-in;
+      cursor: pointer;
+    }
 
 .projects__card a {
   color: #fff;
